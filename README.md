@@ -1,1 +1,1 @@
-# paradigms-final-project
+# Notre Dame Building Vote Counter
