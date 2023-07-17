@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+  h1 ND-Zoom, a place for Notre Dame Buildings to meet.
+  .topnav
+    button#ndButton Notre Dame
+    button#debartButton Debart
+    button#domeButton Dome
+    button#fitzCushingButton Fitzpatrick Cushing
+    button#stinRemButton Stinson-Remick 
+    button#zoomButton ZoomTime
+    button#mapButton ZooMap
+    script(src='javascripts/client.js')
+  .main
+    img(src='images/debart.jpg', alt='Image', width='400', height='400')
+    img(src='images/dome.jpg', alt='Image', width='400', height='400')
+    img(src='images/stinRem.jpg', alt='Image', width='400', height='400')
+    img(src='images/fitzCushing.jpg', alt='Image', width='400', height='400')
